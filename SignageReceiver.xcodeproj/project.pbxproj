@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C163351D1AF3B2B700F34A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C163351C1AF3B2B700F34A7A /* main.m */; };
+		C16335201AF3B2B700F34A7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C163351F1AF3B2B700F34A7A /* AppDelegate.m */; };
+		C16335231AF3B2B700F34A7A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16335221AF3B2B700F34A7A /* FirstViewController.m */; };
+		C16335261AF3B2B700F34A7A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16335251AF3B2B700F34A7A /* SecondViewController.m */; };
+		C16335291AF3B2B700F34A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16335271AF3B2B700F34A7A /* Main.storyboard */; };
+		C163352B1AF3B2B700F34A7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C163352A1AF3B2B700F34A7A /* Images.xcassets */; };
+		C163352E1AF3B2B700F34A7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C163352C1AF3B2B700F34A7A /* LaunchScreen.xib */; };
+		C163353A1AF3B2B800F34A7A /* SignageReceiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C16335391AF3B2B800F34A7A /* SignageReceiverTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C16335341AF3B2B800F34A7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C163350F1AF3B2B700F34A7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C16335161AF3B2B700F34A7A;
+			remoteInfo = SignageReceiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C16335171AF3B2B700F34A7A /* SignageReceiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignageReceiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C163351B1AF3B2B700F34A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C163351C1AF3B2B700F34A7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C163351E1AF3B2B700F34A7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C163351F1AF3B2B700F34A7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C16335211AF3B2B700F34A7A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C16335221AF3B2B700F34A7A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C16335241AF3B2B700F34A7A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C16335251AF3B2B700F34A7A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C16335281AF3B2B700F34A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C163352A1AF3B2B700F34A7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C163352D1AF3B2B700F34A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C16335331AF3B2B800F34A7A /* SignageReceiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignageReceiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16335381AF3B2B800F34A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16335391AF3B2B800F34A7A /* SignageReceiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignageReceiverTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C16335141AF3B2B700F34A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16335301AF3B2B800F34A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C163350E1AF3B2B700F34A7A = {
+			isa = PBXGroup;
+			children = (
+				C16335191AF3B2B700F34A7A /* SignageReceiver */,
+				C16335361AF3B2B800F34A7A /* SignageReceiverTests */,
+				C16335181AF3B2B700F34A7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C16335181AF3B2B700F34A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16335171AF3B2B700F34A7A /* SignageReceiver.app */,
+				C16335331AF3B2B800F34A7A /* SignageReceiverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C16335191AF3B2B700F34A7A /* SignageReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				C163351E1AF3B2B700F34A7A /* AppDelegate.h */,
+				C163351F1AF3B2B700F34A7A /* AppDelegate.m */,
+				C16335211AF3B2B700F34A7A /* FirstViewController.h */,
+				C16335221AF3B2B700F34A7A /* FirstViewController.m */,
+				C16335241AF3B2B700F34A7A /* SecondViewController.h */,
+				C16335251AF3B2B700F34A7A /* SecondViewController.m */,
+				C16335271AF3B2B700F34A7A /* Main.storyboard */,
+				C163352A1AF3B2B700F34A7A /* Images.xcassets */,
+				C163352C1AF3B2B700F34A7A /* LaunchScreen.xib */,
+				C163351A1AF3B2B700F34A7A /* Supporting Files */,
+			);
+			path = SignageReceiver;
+			sourceTree = "<group>";
+		};
+		C163351A1AF3B2B700F34A7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C163351B1AF3B2B700F34A7A /* Info.plist */,
+				C163351C1AF3B2B700F34A7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C16335361AF3B2B800F34A7A /* SignageReceiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				C16335391AF3B2B800F34A7A /* SignageReceiverTests.m */,
+				C16335371AF3B2B800F34A7A /* Supporting Files */,
+			);
+			path = SignageReceiverTests;
+			sourceTree = "<group>";
+		};
+		C16335371AF3B2B800F34A7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16335381AF3B2B800F34A7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C16335161AF3B2B700F34A7A /* SignageReceiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C163353D1AF3B2B800F34A7A /* Build configuration list for PBXNativeTarget "SignageReceiver" */;
+			buildPhases = (
+				C16335131AF3B2B700F34A7A /* Sources */,
+				C16335141AF3B2B700F34A7A /* Frameworks */,
+				C16335151AF3B2B700F34A7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignageReceiver;
+			productName = SignageReceiver;
+			productReference = C16335171AF3B2B700F34A7A /* SignageReceiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C16335321AF3B2B800F34A7A /* SignageReceiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16335401AF3B2B800F34A7A /* Build configuration list for PBXNativeTarget "SignageReceiverTests" */;
+			buildPhases = (
+				C163352F1AF3B2B800F34A7A /* Sources */,
+				C16335301AF3B2B800F34A7A /* Frameworks */,
+				C16335311AF3B2B800F34A7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16335351AF3B2B800F34A7A /* PBXTargetDependency */,
+			);
+			name = SignageReceiverTests;
+			productName = SignageReceiverTests;
+			productReference = C16335331AF3B2B800F34A7A /* SignageReceiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C163350F1AF3B2B700F34A7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = PmrComp;
+				TargetAttributes = {
+					C16335161AF3B2B700F34A7A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C16335321AF3B2B800F34A7A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C16335161AF3B2B700F34A7A;
+					};
+				};
+			};
+			buildConfigurationList = C16335121AF3B2B700F34A7A /* Build configuration list for PBXProject "SignageReceiver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C163350E1AF3B2B700F34A7A;
+			productRefGroup = C16335181AF3B2B700F34A7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C16335161AF3B2B700F34A7A /* SignageReceiver */,
+				C16335321AF3B2B800F34A7A /* SignageReceiverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C16335151AF3B2B700F34A7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16335291AF3B2B700F34A7A /* Main.storyboard in Resources */,
+				C163352E1AF3B2B700F34A7A /* LaunchScreen.xib in Resources */,
+				C163352B1AF3B2B700F34A7A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16335311AF3B2B800F34A7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C16335131AF3B2B700F34A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16335261AF3B2B700F34A7A /* SecondViewController.m in Sources */,
+				C16335201AF3B2B700F34A7A /* AppDelegate.m in Sources */,
+				C16335231AF3B2B700F34A7A /* FirstViewController.m in Sources */,
+				C163351D1AF3B2B700F34A7A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C163352F1AF3B2B800F34A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C163353A1AF3B2B800F34A7A /* SignageReceiverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C16335351AF3B2B800F34A7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C16335161AF3B2B700F34A7A /* SignageReceiver */;
+			targetProxy = C16335341AF3B2B800F34A7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C16335271AF3B2B700F34A7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16335281AF3B2B700F34A7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C163352C1AF3B2B700F34A7A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C163352D1AF3B2B700F34A7A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C163353B1AF3B2B800F34A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C163353C1AF3B2B800F34A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C163353E1AF3B2B800F34A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignageReceiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C163353F1AF3B2B800F34A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignageReceiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C16335411AF3B2B800F34A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SignageReceiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignageReceiver.app/SignageReceiver";
+			};
+			name = Debug;
+		};
+		C16335421AF3B2B800F34A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SignageReceiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignageReceiver.app/SignageReceiver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C16335121AF3B2B700F34A7A /* Build configuration list for PBXProject "SignageReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C163353B1AF3B2B800F34A7A /* Debug */,
+				C163353C1AF3B2B800F34A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C163353D1AF3B2B800F34A7A /* Build configuration list for PBXNativeTarget "SignageReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C163353E1AF3B2B800F34A7A /* Debug */,
+				C163353F1AF3B2B800F34A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C16335401AF3B2B800F34A7A /* Build configuration list for PBXNativeTarget "SignageReceiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16335411AF3B2B800F34A7A /* Debug */,
+				C16335421AF3B2B800F34A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C163350F1AF3B2B700F34A7A /* Project object */;
+}
